@@ -223,16 +223,34 @@ border-radius: 2px;
 
 .page-hero {
     background-color: #2E2F42;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 72px;
+    padding-bottom: 72px;
     margin: 0 auto;
-    max-width: 1440px;
-    height: 600px;
+    max-width: 320px;
+    height: 100%;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-back.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+}
+
+
+@media only screen and (min-width: 768px) {
+  .page-hero {
+    max-width: 768px;
+    padding-top: 112px;
+        padding-bottom: 112px;
+  }
+}
+
+
+@media only screen and (min-width: 1158px) {
+    .page-hero {
+        max-width: 1440px;
+        padding-top: 188px;
+            padding-bottom: 188px;
+            height: 600px;
+    }
 }
 
 .hero {
@@ -244,16 +262,37 @@ border-radius: 2px;
    
 }
 .title-page {
-    line-height: 1.07;
         letter-spacing: 0.02em;
         color: #FFFFFF;
         text-align: center;
         font-weight: 700;
-        font-size: 56px;
-        margin-bottom: 48px;
+        font-size: 36px;
+        line-height: 1.11;
+        margin-bottom: 72px;
         display: block;
-        max-width: 496px;
+        max-width: 216px;
+
+
+            
 }
+
+@media only screen and (min-width: 768px) {
+  .title-page {
+    line-height: 1.07;
+font-size: 56px;
+margin-bottom: 36px;
+max-width: 496px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+    .title-page {
+       
+        margin-bottom: 48px;
+    }
+}
+
+
 
 
 .btn {
