@@ -27,6 +27,15 @@
           <a href="./index.html" class="link"
             >Web<span class="style">Studio</span></a
           >
+          <button
+            class="mobile-menu-btn"
+            type="button"
+            aria-label="Open menu button"
+          >
+            <svg class="mobile-menu-btn-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
           <ul class="nav">
             <li><a href="./index.html" class="nav-a current">Studio</a></li>
             <li><a href="" class="nav-a">Portfolio</a></li>
@@ -51,13 +60,13 @@
     </header>
 
     <main>
-      <section class="page-hero">
+      <section class="page-hero hide">
         <div class="container hero">
           <h1 class="title-page">Effective Solutions for Your Business</h1>
           <button type="button" class="btn">Order Service</button>
         </div>
       </section>
-      <section class="page-benefits">
+      <section class="page-benefits hide">
         <div class="container benefits">
           <h2 class="visually-hidden">Benefits</h2>
           <ul class="benefits-list">
@@ -112,7 +121,7 @@
           </ul>
         </div>
       </section>
-      <section class="team">
+      <section class="team hide">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="our-team">
@@ -283,7 +292,7 @@
           </ul>
         </div>
       </section>
-      <section class="portfolio">
+      <section class="portfolio hide">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="our-portfolio">
@@ -399,7 +408,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer hide">
       <div class="container footer-both">
         <div class="container footer-c">
           <a href="./index.html" class="link-foot"
@@ -467,7 +476,7 @@
       </div>
     </footer>
 
-    <div class="backdrop">
+    <div class="backdrop hide">
       <div class="modal">
         <button type="button" class="close-btn">
           <svg class="icon-close" width="8" height="8">
@@ -547,6 +556,68 @@
 
           <button type="submit" class="btn send">Send</button>
         </form>
+      </div>
+    </div>
+
+    <div class="mobile-menu">
+      <div class="container">
+        <button type="button" class="close-btn">
+          <svg class="icon-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="mobile-menu-nav">
+          <li class="mobile-menu-item">
+            <a href="#" class="mobile-menu-link"></a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="#" class="mobile-menu-link"></a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="#" class="mobile-menu-link"></a>
+          </li>
+        </ul>
+        <ul class="mobile-menu-contacts">
+          <li class="mobile-menu-item">
+            <a href="tel:110001111111" class="mobile-menu-link"></a>+11 (000)
+            111-11-11
+          </li>
+          <li class="mobile-menu-item">
+            <a href="mailto:info@devstudio.com" class="mobile-menu-link"></a
+            >info@devstudio.com
+          </li>
+        </ul>
+
+        <ul class="footer-social">
+          <li class="social-items">
+            <a href="instagram.com" class="social-links-footer">
+              <svg class="social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-items">
+            <a href="facebook.com" class="social-links-footer">
+              <svg class="social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-items">
+            <a href="twitter.com" class="social-links-footer">
+              <svg class="social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-items">
+            <a href="linkedin.com" class="social-links-footer">
+              <svg class="social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
